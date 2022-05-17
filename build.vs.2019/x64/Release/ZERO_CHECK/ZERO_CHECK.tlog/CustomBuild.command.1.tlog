@@ -1,0 +1,10 @@
+^C:\USERS\AL388\DOWNLOADS\MOCHALOV_BPM-19-3\MOCHALOV_BPM-19-3\BUILD.VS.2019\CMAKEFILES\D8EEC2D26B20B821748FACB2E5C34060\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/al388/Downloads/mochalov_BPM-19-3/mochalov_BPM-19-3 -BC:/Users/al388/Downloads/mochalov_BPM-19-3/mochalov_BPM-19-3/build.vs.2019 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/al388/Downloads/mochalov_BPM-19-3/mochalov_BPM-19-3/build.vs.2019/mochalov_l_v.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

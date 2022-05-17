@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\al388\Downloads\mochalov_BPM-19-3\mochalov_BPM-19-3\prj.labs\lab01\lab01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\al388\Downloads\mochalov_BPM-19-3\mochalov_BPM-19-3\prj.labs\lab01\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\al388\Downloads\mochalov_BPM-19-3\mochalov_BPM-19-3\prj.labs\lab01\lab01.report.md.in.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E774F0AF-D3CE-3A37-892E-4C1F43D3840E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

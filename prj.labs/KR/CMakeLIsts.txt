@@ -1,0 +1,12 @@
+project(KR)
+add_executable(KR KR.cpp KR.report.md.in.txt)
+
+file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/frames)
+
+target_link_libraries(KR ${OpenCV_LIBS})
+
+file(READ KR.cpp cpp_source)
+# prepare report md file
+configure_file(KR.report.md.in.txt ${CMAKE_CURRENT_BINARY_DIR}/KR.report.md @ONLY)
+add_custom_command(TARGET ${PROJECT_NAME}
+  POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy "${CMAKE_CURRENT_BINARY_DIR}/KR.report.md" "$<TARGET_FILE_DIR:${PROJECT_NAME}>")

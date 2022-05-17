@@ -1,0 +1,6 @@
+C:/Users/al388/Downloads/mochalov_BPM-19-3/mochalov_BPM-19-3/build.vs.2019/CMakeFiles/ALL_BUILD.dir
+C:/Users/al388/Downloads/mochalov_BPM-19-3/mochalov_BPM-19-3/build.vs.2019/CMakeFiles/ZERO_CHECK.dir
+C:/Users/al388/Downloads/mochalov_BPM-19-3/mochalov_BPM-19-3/build.vs.2019/prj.labs/lab01/CMakeFiles/lab01.dir
+C:/Users/al388/Downloads/mochalov_BPM-19-3/mochalov_BPM-19-3/build.vs.2019/prj.labs/lab01/CMakeFiles/ALL_BUILD.dir
+C:/Users/al388/Downloads/mochalov_BPM-19-3/mochalov_BPM-19-3/build.vs.2019/prj.labs/lab02/CMakeFiles/lab02.dir
+C:/Users/al388/Downloads/mochalov_BPM-19-3/mochalov_BPM-19-3/build.vs.2019/prj.labs/lab02/CMakeFiles/ALL_BUILD.dir
